@@ -52,7 +52,7 @@ const Home = () => {
                 inputMinutes: Math.max(0, e.target.value || 0),
               }))
             }
-            className="bg-[rgb(254,255,173)] rounded-lg px-2 py-1"
+            className="bg-[rgb(255,255,200)] rounded-lg px-2 py-1"
           />{" "}
           Minutes
         </label>
@@ -69,7 +69,7 @@ const Home = () => {
                 inputSeconds: Math.max(0, e.target.value || 0),
               }))
             }
-            className="bg-[rgb(254,255,173)] rounded-lg px-2 py-1"
+            className="bg-[rgb(255,255,200)] rounded-lg px-2 py-1"
           />{" "}
           Seconds
         </label>
